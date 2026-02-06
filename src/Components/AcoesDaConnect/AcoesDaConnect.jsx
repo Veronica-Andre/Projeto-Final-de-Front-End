@@ -17,7 +17,7 @@ function AcoesDaConnect(){
             id: 1,
             imagem: Recicla,
             nome:'Mutirão de Reciclagem',
-            texto:'Coletar materiais recicláveis e orientar sobre descarte cosciente.'
+            texto:'Coletar materiais recicláveis e orientar sobre descarte consciente.'
 
         },
 
@@ -65,16 +65,17 @@ function AcoesDaConnect(){
             <section className={style.textos}>
 
              <h2>Ações da Connect</h2>
-            <p>junte-se a quem acredita na mudança. Apoie, participe e transforme vidas através de ações sociais que geram impacto real nas comunidades.</p>
+            <p>Junte-se a quem acredita na mudança. Apoie, participe e transforme vidas através de ações sociais que geram impacto real nas comunidades.</p>
        
             </section>
        
              <section className={style.segsection}>
-                {AcoesDaConnect.map((item) => (
-                    <article key={item.id}className={style.cards}>
+                {acoesDaConnect.map((item) => (
+                    <article key={item.id} className={style.cards}>
                         <img src={item.imagem} alt="" />
                         <h3>{item.nome}</h3>
                         <p>{item.texto}</p>
+                        <button>Quero Participar</button>
                     </article>
                 ))}
 

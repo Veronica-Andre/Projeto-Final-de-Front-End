@@ -16,7 +16,7 @@ import style from './NavBar.module.scss'
 function NavBar(){
    return(
         <BrowserRouter>
-            <nav>
+            <nav className={style.navBar}>
                 <Link to='/'>
                 <img className={style.logo} src={Logo} alt="Logo do Projeto" />
                 </Link>

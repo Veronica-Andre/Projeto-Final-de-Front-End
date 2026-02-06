@@ -6,13 +6,12 @@ function Inicio(){
     return(
         <section className= {style.I}>
          <div className={style.T}>
-             <h2>Projetos Sociais Que Transformam</h2>
+             <h1>Projetos Sociais Que Transformam</h1>
              <p>Conectamos sua empresa com projetos sociais impactantes.
-            Juntos, criamos mudanças reais na comunidade.
-             </p>
+            Juntos, criamos mudanças reais na comunidade.</p>
        </div>
         
-        <img src={Uniao} alt="Imagem de mãos segurando bonecos de papel em círculo com um globo terrestre no centro." />
+        <img src={Uniao} alt="Mão simbolizando projetos sociais"/>
         </section>
     )
 }

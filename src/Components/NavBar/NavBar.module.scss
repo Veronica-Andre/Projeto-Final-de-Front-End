@@ -1,4 +1,4 @@
-nav{
+.navBar{
     display: flex;
     background-color: #205691;
     justify-content: space-around;
@@ -10,8 +10,6 @@ nav{
 
         width: 80%;
     }
-
-
     .imgPerfil{
         
         border-radius: 50%;
@@ -19,15 +17,13 @@ nav{
         height: 15vh;
         object-fit: cover;
         border: solid #00AAFF;
-        
     }
 
     ul{
         display: flex;
         width: 70%;
         justify-content: space-around;
-        list-style: none;
-        text-decoration: none;
+       
         
     a {
         text-decoration: none;
@@ -36,8 +32,26 @@ nav{
     }
 
     }
+}
 
-    
+// vai valaer em telas que tenham a largura entre 201px a 500px;
+@media (min-width: 201px) and (max-width: 500px){
+
+    .navBar{
+
+        a{
+            font-size: 0.5rem;
+        }
+
+        .imgPerfil{
+
+            height: 6vh;
+        }
+        .logo{
+
+            width: 50%;
+        }
+    }
 
 }
 

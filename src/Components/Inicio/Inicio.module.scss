@@ -1,26 +1,22 @@
 .I{
-    display: flex;
-    justify-content: space-evenly;
+     display: flex;
     align-items: center;
-    width: 100%;
-    height: 75vh;
+    justify-content: center;
 
     .T{
-    display: flex;
-    flex-direction: column;
-    color: #205691;
-    justify-content: center;
-    
-    width: 45%;
-    height: 55vh;
+        height: 40vh;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        color: #205691;
    
-     h2{
+     h1{
         font-size: 5rem;
-        margin-bottom: 0.5rem;
+      
          }
 
      p{
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
     }
     

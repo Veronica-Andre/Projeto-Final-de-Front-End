@@ -9,7 +9,7 @@ import Perfil from '../Perfil/Perfil'
 
 //Importar Imagens
 import Logo from '../../assets/Logo.png'
-import imgPerfil from '../../assets/imgPerfil.jpeg'
+import imgPerfil from '../../assets/ImgPerfil.jpeg'
 
 import style from './NavBar.module.scss'
 

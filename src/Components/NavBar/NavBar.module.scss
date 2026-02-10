@@ -38,18 +38,24 @@
 @media (min-width: 201px) and (max-width: 500px){
 
     .navBar{
-
+        //background-color: red;
+        display: flex;
+        justify-content: space-around;
+        border: solid red;
+        
+        ul{
         a{
-            font-size: 0.5rem;
+            font-size: 0.8rem;
+            
         }
-
+    }
         .imgPerfil{
 
-            height: 6vh;
+            height: 12vh;
         }
         .logo{
 
-            width: 50%;
+            width: 60%;
         }
     }
 

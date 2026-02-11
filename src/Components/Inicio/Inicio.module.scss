@@ -2,6 +2,7 @@
      display: flex;
     align-items: center;
     justify-content: center;
+    height: 80vh;
 
     .T{
         height: 40vh;
@@ -21,7 +22,43 @@
     }
     
     img{
-        width: 36%;
-        height: auto;
+        width: 38%;
+        height: 80vh;
     }
+}
+
+@media (min-width: 201px) and (max-width: 500px){
+
+
+.I{
+     display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+     align-items: center;
+
+    .T{
+        height: 40vh;
+        display: flex;
+       
+                         
+     h1{
+        font-size: 2.8rem;
+      
+         }
+
+     p{
+        font-size:1rem;
+      
+    }
+    }
+    
+    img{
+        width: 45%;
+        height: auto;
+        border-radius: 100%;
+    }
+}
+
+
+
 }

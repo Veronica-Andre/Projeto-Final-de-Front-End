@@ -1,10 +1,11 @@
-.containerFooter{
+Footer{
     display: flex;
     justify-content: space-around;
     align-items: center;
     //border: solid;
     height: 10vh;
    background-color: #205691;
+   color:#FFFF;
 }    
 
 .logoName{
@@ -12,6 +13,47 @@
 display: flex;
 justify-content: space-around;
 align-items: center;
+width: 18%;
+height: 8vh;
+
+
+img{
+
+    width: 65px;
+   
+}
+}
+
+p {
+        // border: solid white;
+        width: 25%;
+        text-align: center;
+}
+
+.imagens{
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 15%;
+height: 10vh;
+//border: solid;
+
+}
+
+@media (min-width: 201px) and (max-width: 500px){
+
+.containerFooter{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-around;
+    align-items: center;
+    height:30vh;
+   
+}    
+
+.logoName{
+
+
 width: 18%;
 height: 8vh;
 color:#ffff;
@@ -24,11 +66,7 @@ img{
 }
 
 .texto{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-color:#ffff;
+font-size: 1rem;
 
 }
 
@@ -37,7 +75,8 @@ display: flex;
 justify-content: space-around;
 align-items: center;
 width: 15%;
-height: 10vh;
+height: 6vh;
 //border: solid;
 
+}
 }

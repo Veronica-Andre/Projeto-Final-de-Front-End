@@ -7,7 +7,7 @@ import styles from './Footer.module.scss'
 
 function Footer(){
     return(
-        <section className={styles.containerFooter}>
+      <footer>
         
         <div className={styles.logoName}>
 
@@ -16,19 +16,16 @@ function Footer(){
 
         </div>    
        
-       <section className={styles.texto}>
-
-        <p>© 2026 Vai na Web & Empower. Todos os direitos reservados.</p> 
-        <p>Projeto destinado exclusivamente a fins educativos.</p>
-
-       </section>
-         
-        <section className={styles.imagens}>
+            <p>
+        © 2026 Vai na Web & Empower. Todos os direitos reservados. Projeto destinado exclusivamente a fins educativos.
+       </p>
+                
+        <nav className={styles.imagens}>
         <img src={Zap}  alt="Logo do WhatsApp."  />
         <img src={insta} alt="Logo do Instagram." />
         <img src={linkedIn} alt="Logo do LinkedIn." />
-        </section>
-        </section>
+        </nav>
+        </footer>
     )
 }
 export default Footer

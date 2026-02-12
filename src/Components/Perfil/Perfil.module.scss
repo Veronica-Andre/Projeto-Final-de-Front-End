@@ -87,3 +87,100 @@ address{
         border-radius: 10px;
     }
 }
+
+@media (min-width: 201px) and (max-width: 500px){
+
+.containerTelaPerfil{
+
+    //border: solid;
+    article {
+
+        border: none;
+        display: flex;
+        width: 100%;
+        height: 77vh;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+         img{
+
+        width: 12rem;
+        height: 12rem;
+        border-radius: 100%;
+        border: solid #00AAFF 5px;
+               
+    }
+  
+    }
+
+}
+
+.cardInfo{
+
+    //border: solid green;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 80vh;
+    align-items: center;
+
+    h2{
+        font-size: 1.5rem;
+        height: 2vh;
+    }
+
+    h3{
+        font-size: 1rem;
+        font-weight: 400;
+        color: #278733;
+       
+    }
+
+}
+
+.sobreMim{
+
+    width: 85%;
+    font-size: 1rem;
+
+}
+
+address{
+
+    //border: solid red;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    height: 10vh;
+
+    p{
+        font-size: 1.2rem;
+        font-weight: 500;
+    }
+}
+
+.listaInteresses{
+
+   //border: solid red;
+    display: flex;
+    width: 95%;
+    justify-content: space-between;
+    align-items: center;
+    li{
+        color: #278733;
+        font-size: 0.6rem;
+        font-weight: 500;
+        background-color: #D4E7D6;
+        height: 5vh;
+        border-radius: 10px;
+        width: 23%;
+       // border: solid red;
+       text-align: center;
+    }
+}
+
+}

@@ -41,6 +41,10 @@
         // border: solid;
         width: 80%;
     }
+    
+    h3{
+        color:#205691;
+    }
     button {
         background-color: #205691;
         color: #fff;
@@ -50,4 +54,47 @@
         border-radius: 10px;
         cursor: pointer;
     }
+}
+
+@media (min-width: 201px) and (max-width: 500px){
+
+    .boxTituloAcoes {
+    
+    h2 {
+      
+        font-size: 2rem;
+    }
+    p {
+        font-size: 0.8rem;
+        width: 70%;
+        }
+}
+.containerCardsDeAcoes {
+    // background-color: pink;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+.cardsDeAcoes {
+   // border: solid red;
+    width: 90%;
+    height: 50vh;
+   
+    img {
+        height: 20vh;
+        width: 90%;
+    }
+    h2 {
+        color: #122F97;
+        font-size: 1.5rem;
+    }
+    
+    p {
+        text-align: center;
+        // border: solid;
+        width: 80%;
+    }
+  
+}
 }

@@ -16,65 +16,62 @@ align-items: center;
 width: 18%;
 height: 8vh;
 
-
 img{
 
-    width: 65px;
+    width: 28%;
    
 }
 }
 
 p {
-        // border: solid white;
-        width: 25%;
+       // border: solid white;
+        width: 30%;
         text-align: center;
+        font-size: 0.8rem;
 }
 
 .imagens{
 display: flex;
 justify-content: space-around;
 align-items: center;
-width: 15%;
-height: 10vh;
+width: 20%;
+height: 5vh;
 //border: solid;
 
 }
 
 @media (min-width: 201px) and (max-width: 500px){
 
-.containerFooter{
-    display: flex;
+Footer{
+    display:flex;
     flex-direction: column-reverse;
-    justify-content: space-around;
-    align-items: center;
-    height:30vh;
+    height:35vh;
+   // border: solid red;
    
 }    
 
 .logoName{
 
-
-width: 18%;
+width: 60%;
 height: 8vh;
-color:#ffff;
 
 img{
 
-    width: 65px;
+    width: 30%;
    
 }
 }
 
-.texto{
-font-size: 1rem;
-
+p{
+font-size: 0.8rem;
+width:100%;
 }
 
 .imagens{
 display: flex;
 justify-content: space-around;
 align-items: center;
-width: 15%;
+width: 50%;
 height: 6vh;
 //border: solid;
 
